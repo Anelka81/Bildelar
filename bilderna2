@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bildelar från Europa</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 2em 0;
+        }
+        .product {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 1em;
+            margin: 1em 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .product img {
+            max-width: 150px;
+            border-radius: 5px;
+        }
+        .product-details {
+            flex: 1;
+            margin-left: 1em;
+        }
+        .product-details h3 {
+            margin: 0;
+        }
+        .product-actions {
+            text-align: right;
+        }
+        .product-actions button {
+            padding: 0.5em 1em;
+            background-color: #28a745;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .product-actions button:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bildelar från Europa</h1>
+        <p>Hitta reservdelar för europeiska bilar!</p>
+    </header>
+
+    <div class="container">
+        <!-- Dörr -->
+        <div class="product">
+            <img src="images/door.jpg" alt="Dörr">
+            <div class="product-details">
+                <h3>Dörr</h3>
+                <p>Passar olika europeiska bilmodeller. Finns i flera färger.</p>
+                <p><strong>Pris:</strong> 1 500 SEK</p>
+            </div>
+            <div class="product-actions">
+                <button>Lägg till i kundvagnen</button>
+            </div>
+        </div>
+
+        <!-- Fönster -->
+        <div class="product">
+            <img src="images/window.jpg" alt="Fönster">
+            <div class="product-details">
+                <h3>Fönster</h3>
+                <p>Hållbart glas för fram- eller sidofönster.</p>
+                <p><strong>Pris:</strong> 800 SEK</p>
+            </div>
+            <div class="product-actions">
+                <button>Lägg till i kundvagnen</button>
+            </div>
+        </div>
+
+        <!-- Baklucka -->
+        <div class="product">
+            <img src="images/trunk.jpg" alt="Baklucka">
+            <div class="product-details">
+                <h3>Baklucka</h3>
+                <p>Stålbaklucka för europeiska bilmodeller.</p>
+                <p><strong>Pris:</strong> 2 000 SEK</p>
+            </div>
+            <div class="product-actions">
+                <button>Lägg till i kundvagnen</button>
+            </div>
+        </div>
+
+        <!-- Skärm -->
+        <div class="product">
+            <img src="images/fender.jpg" alt="Skärm">
+            <div class="product-details">
+                <h3>Skärm</h3>
+                <p>Perfekt för att reparera bilens ytterdel.</p>
+                <p><strong>Pris:</strong> 1 200 SEK</p>
+            </div>
+            <div class="product-actions">
+                <button>Lägg till i kundvagnen</button>
+            </div>
+        </div>
+
+        <!-- Stol -->
+        <div class="product">
+            <img src="images/seat.jpg" alt="Stol">
+            <div class="product-details">
+                <h3>Stol</h3>
+                <p>Ergonomisk design med justerbart stöd.</p>
+                <p><strong>Pris:</strong> 1 800 SEK</p>
+            </div>
+            <div class="product-actions">
+                <button>Lägg till i kundvagnen</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
