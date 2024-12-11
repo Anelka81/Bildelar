@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Begagnade Bildelar</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #555;
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        .hero {
+            background: url('bildelar.jpg') no-repeat center center/cover;
+            height: 300px;
+            color: white;
+            text-align: center;
+            padding: 50px;
+        }
+        .hero h1 {
+            margin: 0;
+        }
+        .content {
+            padding: 20px;
+        }
+        .advertisement {
+            margin: 20px auto;
+            width: 300px; /* Cirka 3 cm i proportionerlig storlek */
+            height: 500px; /* Cirka 5 cm i proportionerlig storlek */
+            border: 1px solid #ccc;
+            text-align: center;
+            background-color: #f9f9f9;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .advertisement img {
+            max-width: 100%;
+            max-height: 100%;
+        }
+        .advertisement p {
+            font-size: 14px;
+            color: #666;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Begagnade Bildelar</h1>
+    </header>
+    <nav>
+        <a href="#produkter">Produkter</a>
+        <a href="#kontakt">Kontakt</a>
+        <a href="#om-oss">Om oss</a>
+    </nav>
+    <div class="hero">
+        <h1>Välkommen till Begagnade Bildelar</h1>
+        <p>Hitta kvalitetsdelar till oslagbara priser!</p>
+    </div>
+    <div class="advertisement">
+        <img src="reklam.jpg" alt="Annons">
+        <p>Din annons här!</p>
+    </div>
+    <div class="content">
+        <h2>Våra Produkter</h2>
+        <p>Sök bland ett brett sortiment av bildelar för alla bilmärken.</p>
+    </div>
+</body>
+</html>
