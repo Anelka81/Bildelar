@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produkter - Bildelar från Europa</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+        }
+        nav {
+            background-color: #555;
+            padding: 1em;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 1em;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 2em 0;
+        }
+        .product-category {
+            margin: 1em 0;
+            background-color: #fff;
+            padding: 1em;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .product-category h3 {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Produkter</h1>
+        <p>Utforska våra kategorier av reservdelar för europeiska bilar.</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Hem</a>
+        <a href="produkter.html">Produkter</a>
+    </nav>
+
+    <div class="container">
+        <div class="product-category">
+            <h3>Dörrar</h3>
+            <p>Olika modeller och färger för alla behov.</p>
+        </div>
+        <div class="product-category">
+            <h3>Fönster</h3>
+            <p>Hållbara glas för fram- och sidorutor.</p>
+        </div>
+        <div class="product-category">
+            <h3>Bakluckor</h3>
+            <p>Passar flera europeiska bilmodeller.</p>
+        </div>
+        <div class="product-category">
+            <h3>Skärmar</h3>
+            <p>Hjälper till att hålla bilen i toppskick.</p>
+        </div>
+        <div class="product-category">
+            <h3>Stolar</h3>
+            <p>Ergonomiska stolar med justerbart stöd.</p>
+        </div>
+    </div>
+</body>
+</html>
