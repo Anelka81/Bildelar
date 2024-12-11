@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Europeiska Bildelar</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+        .product-card {
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            overflow: hidden;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .product-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .product-card .info {
+            padding: 15px;
+            text-align: center;
+        }
+        .product-card .info h3 {
+            margin: 0 0 10px;
+            font-size: 18px;
+        }
+        .product-card .info p {
+            margin: 0;
+            color: #666;
+        }
+        .product-card .info .price {
+            margin-top: 10px;
+            font-weight: bold;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bildelar för Europeiska Bilar</h1>
+    </header>
+    <div class="product-grid">
+        <div class="product-card">
+            <img src="bmw-motor.jpg" alt="BMW Motor">
+            <div class="info">
+                <h3>BMW Motor</h3>
+                <p>Passar 3-serie (2012-2018)</p>
+                <p class="price">5 000 SEK</p>
+            </div>
+        </div>
+        <div class="product-card">
+            <img src="audi-bromsar.jpg" alt="Audi Bromsar">
+            <div class="info">
+                <h3>Audi Bromsar</h3>
+                <p>Passar A4 (2015-2020)</p>
+                <p class="price">1 200 SEK</p>
+            </div>
+        </div>
+        <div class="product-card">
+            <img src="volvo-däck.jpg" alt="Volvo Däck">
+            <div class="info">
+                <h3>Volvo Däck</h3>
+                <p>Passar V70 (2008-2016)</p>
+                <p class="price">2 500 SEK</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+Lade till en CSS-fil
